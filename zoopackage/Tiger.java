@@ -1,4 +1,4 @@
-package com.zoo;
+package zoopackage;
 
 public class Tiger  extends Feline{
     public Tiger(String name)

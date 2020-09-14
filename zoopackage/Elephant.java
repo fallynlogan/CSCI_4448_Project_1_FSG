@@ -1,4 +1,4 @@
-package com.zoo;
+package zoopackage;
 
 //File for Elephant extending 
 public class Elephant extends Pachyderm{

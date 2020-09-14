@@ -1,4 +1,4 @@
-package com.zoo;
+package zoopackage;
 
 //Canine extends animal
 public class Cat extends Feline{

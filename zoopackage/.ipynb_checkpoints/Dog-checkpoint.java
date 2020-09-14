@@ -1,4 +1,4 @@
-package com.zoo;
+package zoopackage;
 
 //Canine extends animal
 public class Dog extends Canine{

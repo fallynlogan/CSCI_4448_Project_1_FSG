@@ -1,4 +1,4 @@
-package com.zoo;
+package zoopackage;
 
 //Note: Canine extends Animal class
 /* Wolf Class

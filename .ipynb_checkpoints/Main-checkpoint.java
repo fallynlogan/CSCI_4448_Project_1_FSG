@@ -1,8 +1,9 @@
-import zoopackage;
+import zoopackage.*;
 
 public class Main{
     public static void main(String[] args){
-        Animal[] zoo;
+        
+        Zoo ourZoo = new Zoo();
         
     }
 }

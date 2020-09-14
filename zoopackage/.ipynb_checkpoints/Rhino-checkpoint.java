@@ -1,4 +1,4 @@
-package com.zoo;
+package zoopackage;
 
 public class Rhino extends Pachyderm {
     public Rhino(String name){

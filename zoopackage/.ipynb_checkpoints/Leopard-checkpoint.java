@@ -1,4 +1,4 @@
-package com.zoo;
+package zoopackage;
 
 //File for Leopard extending 
 public class Leopard extends Feline{

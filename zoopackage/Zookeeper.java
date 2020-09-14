@@ -1,4 +1,4 @@
-package com.zoo;
+package zoopackage;
 
 public class Zookeeper extends Zooemployee {
     public void wakeAnimalUp(Zoo.Animal[] zoo) {
