@@ -1,4 +1,4 @@
-package zoo.src
+package zoo.src;
 
 public class Feline extends Animal{
     public Feline(String name)

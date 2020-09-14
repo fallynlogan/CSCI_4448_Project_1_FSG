@@ -1,4 +1,4 @@
-package zoo.src
+package zoo.src;
 
 public class Pachyderm extends Animal{
     public Pachyderm(String name)
