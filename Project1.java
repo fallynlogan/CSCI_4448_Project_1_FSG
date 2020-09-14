@@ -16,11 +16,10 @@ class Zoo {
     
     //2
     class Animal {
-        string name = "";
-        bool isAwake = false;
-        bool isAsleep = false;
+        private String name = "";
+        private boolean isAsleep = false;
         
-        public string getName(String[] args){
+        public String getName(){
             return name;
         }
 
