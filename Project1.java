@@ -30,7 +30,7 @@ class Zoo {
         class Pachyderm {
 
             public void roam() {
-
+                System.out.print("is *STOMPING*");
             }
             //4
             class Hippo {
@@ -55,7 +55,7 @@ class Zoo {
         class Feline {
 
             public void roam() {
-
+                System.out.print("is *RUNNING*");
             }
             //4
             class Tiger {
@@ -80,7 +80,7 @@ class Zoo {
         class Canine {
 
             public void roam() {
-                
+                System.out.print("is *WALKING*");
             }
             //4
             class Wolf {
