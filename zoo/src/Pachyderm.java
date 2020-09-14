@@ -1,4 +1,4 @@
-package zoo.src
+package zoo.src;
 
 public class Pachyderm extends Animal{
     public Pachyderm(String name)
@@ -6,6 +6,6 @@ public class Pachyderm extends Animal{
         super(name);
     }
     public void roam() {
-        System.out.print(this.getName() + " is *STOMPING*");
+        System.out.println(this.getName() + " is *STOMPING*");
     }
 }
