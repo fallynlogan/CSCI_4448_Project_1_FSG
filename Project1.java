@@ -11,10 +11,18 @@ class HelloWorld {
 
 //1
 class Zoo {
+    
+    int numDays = 0;
+    
     //2
     class Animal {
+        string name = "";
         bool isAwake = false;
         bool isAsleep = false;
+        
+        public string getName(String[] args){
+            return name;
+        }
 
         public void sleep() {
             isAwake = false;
@@ -99,8 +107,8 @@ class Zoo {
 
     //2
     class Zookeeper {
-        public void wakeAnimalUp() {
-            
+        public void wakeAnimalUp(Animal args) {
+            System.out.println("Zookeeper wakes up " + Animal.getName());
         }
         public void rollCall() {
             
@@ -116,5 +124,4 @@ class Zoo {
         }
     }
     
-    int numDays = 0;
 }
