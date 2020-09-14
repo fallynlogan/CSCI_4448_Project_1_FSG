@@ -13,7 +13,6 @@ class HelloWorld {
 class Zoo {
     
     int numDays = 0;
-    
     //2
     class Animal {
         private String name = "";
@@ -42,6 +41,7 @@ class Zoo {
                 public void makeNoise() {
                     System.out.println("*Splashes Around*");
                 }
+               
             }
             //4
             class Elephant {
@@ -100,6 +100,22 @@ class Zoo {
                 }
             }
         }
+        //3
+        class Fish {
+            //4
+            class Shark {
+
+            }
+            //4
+            class Whale {
+
+            }
+            //4
+            class Dolphin {
+
+            }
+
+        }
     }
 }
 
@@ -109,13 +125,13 @@ class ZooEmployee{
         public void wakeAnimalUp(Zoo.Animal[] zoo) {
             System.out.println("Zookeeper begins to wake the animals up from their slumber.");
             for(int i=0; i<zoo.length ; i++){
-                //zoo[i].makeNoise();
+                zoo[i].wakeup();
             }
         }
         public void rollCall(Zoo.Animal[] zoo) {
             System.out.println("Zookeeper begins to roll call the animals.");
             for(int i=0; i<zoo.length ; i++){
-                //zoo[i].makeNoise();
+                zoo[i].makeNoise();
             }
         }
         public void feedAnimal(Zoo.Animal[] zoo) {
@@ -127,7 +143,7 @@ class ZooEmployee{
         public void exerciseAnimal(Zoo.Animal[] zoo) {
             System.out.println("Zookeeper begins to exercise the animals.");
             for(int i=0; i<zoo.length ; i++){
-                //zoo[i].makeNoise();
+                zoo[i].roam();
             }
         }
         public void makeAnimalSleep(Zoo.Animal[] zoo) {
@@ -138,6 +154,7 @@ class ZooEmployee{
         }
     }
 }
+
 
 
 
