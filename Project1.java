@@ -24,12 +24,10 @@ class Zoo {
         }
 
         public void sleep() {
-            isAwake = false;
             isAsleep = true;
         }
 
         public void wakeup(){
-            isAwake = true;
             isAsleep = false;
         } 
 
@@ -110,31 +108,31 @@ class ZooEmployee{
     class ZooKeeper {
         public void wakeAnimalUp(Zoo.Animal[] zoo) {
             System.out.println("Zookeeper begins to wake the animals up from their slumber.");
-            for(int i=0; i<zoo.length() ; i++){
+            for(int i=0; i<zoo.length ; i++){
                 //zoo[i].makeNoise();
             }
         }
         public void rollCall(Zoo.Animal[] zoo) {
             System.out.println("Zookeeper begins to roll call the animals.");
-            for(int i=0; i<zoo.length() ; i++){
+            for(int i=0; i<zoo.length ; i++){
                 //zoo[i].makeNoise();
             }
         }
         public void feedAnimal(Zoo.Animal[] zoo) {
             System.out.println("Zookeeper begins to feed the animals.");
-            for(int i=0; i<zoo.length() ; i++){
+            for(int i=0; i<zoo.length ; i++){
                 //zoo[i].makeNoise();
             }
         }
         public void exerciseAnimal(Zoo.Animal[] zoo) {
             System.out.println("Zookeeper begins to exercise the animals.");
-            for(int i=0; i<zoo.length() ; i++){
+            for(int i=0; i<zoo.length ; i++){
                 //zoo[i].makeNoise();
             }
         }
         public void makeAnimalSleep(Zoo.Animal[] zoo) {
             System.out.println("Zookeeper begins to wake the animals up from their slumber.");
-            for(int i=0; i<zoo.length() ; i++){
+            for(int i=0; i<zoo.length ; i++){
                 //zoo[i].makeNoise();
             }
         }
