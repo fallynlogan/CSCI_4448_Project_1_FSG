@@ -71,7 +71,7 @@ class Zoo {
         class Canine {
 
             public void roam() {
-
+                
             }
             //4
             class Wolf {
@@ -90,6 +90,22 @@ class Zoo {
 
     //2
     class Zookeeper {
-
+        public void wakeAnimalUp() {
+            
+        }
+        public void rollCall() {
+            
+        }
+        public void feedAnimal() {
+            
+        }
+        public void exerciseAnimal() {
+            
+        }
+        public void makeAnimalSleep() {
+            
+        }
     }
+    
+    int numDays = 0;
 }
