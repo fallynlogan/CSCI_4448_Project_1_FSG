@@ -1,4 +1,4 @@
-package com.zoo;
+package zoo.src;
 
 public interface Zoo {
     public void wakeup();

@@ -1,6 +1,6 @@
-package com.zoo
+package zoo.src;
 
-public abstract class Animal {
+public class Animal{
     private String name;
     private boolean isAsleep = false;
     
