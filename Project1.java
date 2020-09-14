@@ -13,7 +13,11 @@ class HelloWorld {
 class Zoo {
     
     int numDays = 0;
-    
+
+    public static int getNumOfInstances() {
+        return counter;
+    }
+    private static int counter = 0;
     //2
     class Animal {
         string name = "";
@@ -45,6 +49,7 @@ class Zoo {
                 public void makeNoise() {
                     System.out.println("*Splashes Around*");
                 }
+               
             }
             //4
             class Elephant {
@@ -111,16 +116,22 @@ class Zoo {
             System.out.println("Zookeeper wakes up " + Animal.getName());
         }
         public void rollCall() {
-            
+           int count = getNumOfInstances();
+           System.outprintln("The number of animals in the zoo today is" + count);
         }
         public void feedAnimal() {
             
         }
-        public void exerciseAnimal() {
-            
+        public void exerciseAnimal(Animal[] zoo) {
+            for (int i = 0; i < zoo.length; i++) {
+                zoo[i].roam();
+            }
         }
-        public void makeAnimalSleep() {
-            
+        public void makeAnimalSleep(Animal[] zoo) {
+            for (int i = 0; i < zoo.length; i++) {
+                System.out.println("Goodnight " + zoo[i].getName());
+                zoo[i].sleep();
+            }
         }
     }
     
