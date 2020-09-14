@@ -6,6 +6,6 @@ public class Feline extends Animal{
         super(name);
     }
     public void roam() {
-    
+        System.out.print(this.getName() + " is *RUNNING*");
     }
 }
