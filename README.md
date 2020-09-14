@@ -3,7 +3,9 @@
 #### Fall 2020: 9/16/2020
 
 
-Write an object-oriented program in Java 8 or later that implements a Zoo full of Animals.  Animals that must appear in your Zoo are represented on slide 16 of Lecture 5.  Create a class structure like slide 17 of lecture 5 with at least three levels of inheritance (e.g. Animal, Feline, Cat).  You may decide how many of each Animal live in your zoo, but there should be at least two instances of each lowest level subclass (like Cat).  Individual Animals should have constructors that create Animal instances with individual names that start with the same letter of their subclass (e.g. Charlie and Chloe for Cat).  
+Write an object-oriented program in Java 8 or later that implements a Zoo full of Animals.  Animals that must appear in your Zoo are represented on slide 16 of Lecture 5. 
+
+Create a class structure like slide 17 of lecture 5 with at least three levels of inheritance (e.g. Animal, Feline, Cat).  You may decide how many of each Animal live in your zoo, but there should be at least two instances of each lowest level subclass (like Cat).  Individual Animals should have constructors that create Animal instances with individual names that start with the same letter of their subclass (e.g. Charlie and Chloe for Cat).  
 
 Add a fourth type of Animal of your choice at the same class level as Feline.  There must be at least two unique subclasses of this Animal (like Cat and Lion) also of your choice. When run, the program will ask for input of a number of days.  On each day, a Zookeeper object will arrive at the Zoo and execute a set of tasks in order.  Methods for the Zookeeper class include: wake the animals, roll call the animals, feed the animals, exercise the animals, and tell the animals to sleep.  
 
