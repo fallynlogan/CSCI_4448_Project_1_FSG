@@ -1,6 +1,6 @@
 package zoo.src;
 
-public class Zookeeper {
+public class Zookeeper extends Zooemployee {
     public void wakeAnimalUp(Zoo.Animal[] zoo) {
         System.out.println("Zookeeper begins to wake the animals up from their slumber.");
         for(int i=0; i<zoo.length ; i++){
