@@ -4,6 +4,12 @@ public class Animal{
     private String name;
     private boolean isAsleep;
    //Original fucn: private boolean isAsleep = false;
+
+   //constructor
+   public Animal(String name){
+       this.name = name;
+       this.isAsleep = true;
+}
     
     public String getName()
     {
