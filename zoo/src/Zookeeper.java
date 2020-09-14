@@ -25,4 +25,10 @@ public class Zookeeper {
             zoo[i].roam();
         }
     }
+    public void feedAnimal(Zoo.Animal[] zoo) {
+        System.out.println("Zookeeper begins to feed the animals.");
+        for(int i=0; i<zoo.length ; i++){
+            zoo[i].eat();
+        }
+    }
 }
