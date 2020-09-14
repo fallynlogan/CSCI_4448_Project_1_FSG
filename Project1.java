@@ -8,3 +8,42 @@ class HelloWorld {
         System.out.println("Hello, World!"); 
     }
 }
+
+class Zoo {
+    class Animal {
+        class Pachyderm {
+            class Hippo {
+
+            }
+            class Elephant {
+
+            }
+            class Rhino {
+
+            }
+        }
+        class Feline {
+            class Tiger {
+
+            }
+            class Lion {
+
+            }
+            class Leopard {
+
+            }
+        }
+        class Canine {
+            class Wolf {
+
+            }
+            class Dog {
+
+            }
+        }
+    }
+
+    class Zookeeper {
+
+    }
+}
