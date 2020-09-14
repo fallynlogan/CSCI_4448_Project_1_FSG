@@ -13,10 +13,19 @@ class HelloWorld {
 class Zoo {
     //2
     class Animal {
+        bool isAwake = false;
+        bool isAsleep = false;
 
         public void sleep() {
-
+            isAwake = false;
+            isAsleep = true;
         }
+
+        public void wakeup(){
+            isAwake = true;
+            isAsleep = false;
+        } 
+
         //3
         class Pachyderm {
 
