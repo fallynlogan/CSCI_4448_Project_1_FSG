@@ -25,27 +25,21 @@ class Zoo {
             }
             //4
             class Hippo {
-
                 public void makeNoise() {
-
+                    System.out.println("*Splashes Around*");
                 }
-
             }
             //4
             class Elephant {
-
                 public void makeNoise() {
-
+                    System.out.println("OOOOOOOOONJBmkndjsnfjsOJDS");
                 }
-
             }
             //4
             class Rhino {
-
                 public void makeNoise() {
-
+                    System.out.println("OOOOOOO");
                 }
-
             }
         }
         //3
@@ -56,27 +50,21 @@ class Zoo {
             }
             //4
             class Tiger {
-
                 public void makeNoise() {
-
+                    System.out.println("roar");
                 }
-
             }
             //4
             class Lion {
-
                 public void makeNoise() {
-
+                    System.out.println("ROAR");
                 }
-
             }
             //4
             class Leopard {
-
                 public void makeNoise() {
-
+                    System.out.println("GROWL");
                 }
-
             }
         }
         //3
@@ -87,19 +75,15 @@ class Zoo {
             }
             //4
             class Wolf {
-
                 public void makeNoise() {
-
+                    System.out.println("BARK!");
                 }
-
             }
             //4
             class Dog {
-
                 public void makeNoise() {
-
+                    System.out.println("bark");
                 }
-
             }
         }
     }
