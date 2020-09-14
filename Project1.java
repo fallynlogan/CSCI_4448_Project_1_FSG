@@ -104,24 +104,43 @@ class Zoo {
             }
         }
     }
+}
 
-    //2
-    class Zookeeper {
-        public void wakeAnimalUp(Animal args) {
-            System.out.println("Zookeeper wakes up " + Animal.getName());
+
+class ZooEmployee{
+    class ZooKeeper {
+        public void wakeAnimalUp(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to wake the animals up from their slumber.");
+            for(int i=0; i<zoo.length() ; i++){
+                //zoo[i].makeNoise();
+            }
         }
-        public void rollCall() {
-            
+        public void rollCall(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to roll call the animals.");
+            for(int i=0; i<zoo.length() ; i++){
+                //zoo[i].makeNoise();
+            }
         }
-        public void feedAnimal() {
-            
+        public void feedAnimal(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to feed the animals.");
+            for(int i=0; i<zoo.length() ; i++){
+                //zoo[i].makeNoise();
+            }
         }
-        public void exerciseAnimal() {
-            
+        public void exerciseAnimal(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to exercise the animals.");
+            for(int i=0; i<zoo.length() ; i++){
+                //zoo[i].makeNoise();
+            }
         }
-        public void makeAnimalSleep() {
-            
+        public void makeAnimalSleep(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to wake the animals up from their slumber.");
+            for(int i=0; i<zoo.length() ; i++){
+                //zoo[i].makeNoise();
+            }
         }
     }
-    
 }
+
+
+
