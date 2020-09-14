@@ -5,4 +5,7 @@ public class Feline extends Animal{
     {
         super(name);
     }
+    public void roam() {
+    
+    }
 }
