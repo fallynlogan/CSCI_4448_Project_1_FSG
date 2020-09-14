@@ -20,21 +20,18 @@ class Zoo {
     private static int counter = 0;
     //2
     class Animal {
-        string name = "";
-        bool isAwake = false;
-        bool isAsleep = false;
+        private String name = "";
+        private boolean isAsleep = false;
         
-        public string getName(String[] args){
+        public String getName(){
             return name;
         }
 
         public void sleep() {
-            isAwake = false;
             isAsleep = true;
         }
 
         public void wakeup(){
-            isAwake = true;
             isAsleep = false;
         } 
 
@@ -109,30 +106,43 @@ class Zoo {
             }
         }
     }
+}
 
-    //2
-    class Zookeeper {
-        public void wakeAnimalUp(Animal args) {
-            System.out.println("Zookeeper wakes up " + Animal.getName());
-        }
-        public void rollCall() {
-           int count = getNumOfInstances();
-           System.outprintln("The number of animals in the zoo today is" + count);
-        }
-        public void feedAnimal() {
-            
-        }
-        public void exerciseAnimal(Animal[] zoo) {
-            for (int i = 0; i < zoo.length; i++) {
-                zoo[i].roam();
+
+class ZooEmployee{
+    class ZooKeeper {
+        public void wakeAnimalUp(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to wake the animals up from their slumber.");
+            for(int i=0; i<zoo.length ; i++){
+                //zoo[i].makeNoise();
             }
         }
-        public void makeAnimalSleep(Animal[] zoo) {
-            for (int i = 0; i < zoo.length; i++) {
-                System.out.println("Goodnight " + zoo[i].getName());
-                zoo[i].sleep();
+        public void rollCall(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to roll call the animals.");
+            for(int i=0; i<zoo.length ; i++){
+                //zoo[i].makeNoise();
+            }
+        }
+        public void feedAnimal(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to feed the animals.");
+            for(int i=0; i<zoo.length ; i++){
+                //zoo[i].makeNoise();
+            }
+        }
+        public void exerciseAnimal(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to exercise the animals.");
+            for(int i=0; i<zoo.length ; i++){
+                //zoo[i].makeNoise();
+            }
+        }
+        public void makeAnimalSleep(Zoo.Animal[] zoo) {
+            System.out.println("Zookeeper begins to wake the animals up from their slumber.");
+            for(int i=0; i<zoo.length ; i++){
+                //zoo[i].makeNoise();
             }
         }
     }
-    
 }
+
+
+
