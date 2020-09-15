@@ -9,4 +9,7 @@ public class Dog extends Canine{
     public void roam() {
         System.out.print(this.getName() + " bark ");
     }
+    public void dig() {
+        System.out.print(this.getName() + " is digging");
+    }
 }
