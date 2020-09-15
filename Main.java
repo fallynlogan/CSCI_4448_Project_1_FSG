@@ -25,5 +25,10 @@ public class Main{
             e.printStackTrace();
         }
 
+        for(int i=1; i<=numDays; i++)
+        {
+
+        }
+
     }
 }
