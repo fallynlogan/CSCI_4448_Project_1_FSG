@@ -5,16 +5,20 @@ public class Zookeeper extends Zooemployee {
         super(name);
     }
 
-    public void exerciseAnimal(Animal[] zoo) {
-        System.out.println(this.getName() + " the Zookeeper begins to exercise the animals.");
+    public String exerciseAnimal(Animal[] zoo) {
+        String str = this.getName() + " the Zookeeper begins to exercise the animals.";
+        System.out.println(str);
         for(int i=0; i<zoo.length ; i++){
             zoo[i].roam();
         }
+        return str;
     }
-    public void feedAnimal(Animal[] zoo) {
-        System.out.println( this.getName() + "the Zookeeper begins to feed the animals.");
+    public String feedAnimal(Animal[] zoo) {
+        String str = this.getName() + "the Zookeeper begins to feed the animals.";
+        System.out.println(str);
         for(int i=0; i<zoo.length ; i++){
             zoo[i].eat();
         }
+        return str;
     }
 }

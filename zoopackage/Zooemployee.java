@@ -14,24 +14,30 @@ public abstract class Zooemployee {
     public void setName(String name){
         this.name = name;
     }
-    public void wakeAnimalUp(Animal[] zoo) {
-        System.out.println(this.name + "the" + this.getClass().getSimpleName() + " begins to wake the animals up from their slumber.");
+    public String wakeAnimalUp(Animal[] zoo) {
+        String str = this.name + "the" + this.getClass().getSimpleName() + " begins to wake the animals up from their slumber.";
+        System.out.println(str);
         for(int i=0; i<zoo.length ; i++){
             zoo[i].wakeup();
         }
+        return str;
     }
-    public void makeAnimalSleep(Animal[] zoo) {
-        System.out.println(this.name + "the" + this.getClass().getSimpleName() + "begins to tuck the animals in for the night.");
+    public String makeAnimalSleep(Animal[] zoo) {
+        String str = this.name + "the" + this.getClass().getSimpleName() + "begins to tuck the animals in for the night.";
+        System.out.println(str);
         for(int i=0; i<zoo.length ; i++){
             zoo[i].sleep();
         }
+        return str;
     }
-    public void rollCall(Animal[] zoo) {
-        System.out.println(this.name + "the" + this.getClass().getSimpleName() + "begins to roll call the animals.");
+    public String rollCall(Animal[] zoo) {
+        String str = this.name + "the" + this.getClass().getSimpleName() + "begins to roll call the animals.";
+        System.out.println(str);
         for(int i=0; i<zoo.length ; i++){
             zoo[i].makeNoise();
         }
+        return str;
     }
-    public abstract void exerciseAnimal(Animal[] zoo);
-    public abstract void feedAnimal(Animal[] zoo);
+    public abstract String exerciseAnimal(Animal[] zoo);
+    public abstract String feedAnimal(Animal[] zoo);
 }
