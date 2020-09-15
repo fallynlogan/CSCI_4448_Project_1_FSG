@@ -8,4 +8,8 @@ public class Pachyderm extends Animal{
     public void roam() {
         System.out.println(this.getName() + " is *STOMPING*");
     }
+
+    public void charge() {
+        System.out.println(this.getName() + " is *CHARGING*");
+    }
 }
