@@ -24,12 +24,7 @@ public class Zoo{
     Cat cathy = new Cat("Cathy");
     Cat clayton = new Cat("Clayton");
 
-    Animal[] all_animals = {allison,abraham,dale,daisy,edward,ellie,harriet,harrison,lenny,lydia,rebecca,ron,sally,sergio,tony,taryn,willie,wendy,cathy,clayton};
+    public Animal[] all_animals = {allison,abraham,dale,daisy,edward,ellie,harriet,harrison,lenny,lydia,rebecca,ron,sally,sergio,tony,taryn,willie,wendy,cathy,clayton};
 
-    //System.out.println(all_animals.animals.get(0);
-    //System.out.println(zoo.animals.get(0).getname());
-
-    //System.out.println(wendy.roam());
-    //System.out.println(yo[0].name);
 
 }
