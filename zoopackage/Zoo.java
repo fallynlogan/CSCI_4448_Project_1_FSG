@@ -1,5 +1,8 @@
 package zoopackage;
 
+import java.io.File;
+import java.io.IOException;
+
 public class Zoo{
     public Zookeeper keeper;
     public Animal[] all_animals;
@@ -48,6 +51,32 @@ public class Zoo{
         all_animals[17] = taryn;
         all_animals[18] = willie;
         all_animals[19] = wendy;
+
+        try {
+            File file_name = new File("our_zoo.txt");
+            if (file_name.createNewFile()) {
+                System.out.println("File created: " + file_name.getName());
+            } else {
+                System.out.println("File already exists.");
+            }
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
+
+        for(int i=1; i<=numDays ; i++){
+            //TASKS FOR EACH DAY
+            //Wake the animals
+            keeper.wakeAnimalUp(all_animals);
+            //Roll call the animals
+            keeper.rollCall(all_animals);
+            //Feed the animals
+            keeper.feedAnimal(all_animals);
+            //Exercise the animals
+            keeper.exerciseAnimal(all_animals);
+            //Put animals to sleep
+            keeper.makeAnimalSleep(all_animals);
+        }
 
     }
 }

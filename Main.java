@@ -17,18 +17,5 @@ public class Main{
             System.out.println(ourZoo.all_animals[i].getName());
             System.out.println(i);
         }
-
-        //Creating output text file
-        try {
-            File file_name = new File("our_zoo.txt");
-            if (file_name.createNewFile()) {
-                System.out.println("File created: " + file_name.getName());
-            } else {
-                System.out.println("File already exists.");
-            }
-        } catch (IOException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
-        }
     }
 }
