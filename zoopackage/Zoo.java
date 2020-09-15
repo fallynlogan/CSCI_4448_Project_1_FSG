@@ -80,7 +80,14 @@ public class Zoo{
             //Put animals to sleep
             String sleep_animal = keeper.makeAnimalSleep(all_animals);
 
-            try {
+            /*System.out.println(wake_up);
+            System.out.println(roll_call);
+            System.out.println(feed_animal);
+            System.out.println(exer_animal);
+            System.out.println(sleep_animal);*/
+
+
+            /*try {
                 FileWriter myWriter = new FileWriter("our_zoo.txt");
                 myWriter.write();
                 myWriter.close();
@@ -88,7 +95,7 @@ public class Zoo{
             } catch (IOException e) {
                 System.out.println("An error occurred.");
                 e.printStackTrace();
-            }
+            }*/
 
         }
 
