@@ -5,7 +5,7 @@ public class Zoo {
     public Animal[] animals;
 
     public Zoo(){
-        keeper = new Zookeeper();
+        keeper = new Zookeeper("Zach");
         animals = new Animal[11];
         animals[0] = new Alligator("Alex");
         animals[1] = new Cat("Cathy");
