@@ -1,4 +1,4 @@
-package zoopackage;
+package zoopackage.Zoo;
 
 //Note: Canine extends Animal class
 /* Wolf Class

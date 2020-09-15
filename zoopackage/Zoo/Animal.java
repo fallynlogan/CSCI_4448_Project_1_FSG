@@ -1,6 +1,6 @@
-package zoopackage;
+package zoopackage.Zoo;
 
-public class Animal{
+public abstract class Animal{
     private String name;
     private boolean isAsleep;
    //Original fucn: private boolean isAsleep = false;
@@ -30,7 +30,7 @@ public class Animal{
         }
         isAsleep = false;
     }
-    
+    //polymorphism -- in all other animal files
     public void makeNoise() {
         System.out.println(this.name + " the " +this.getClass().getSimpleName() + " is making a noise.");
     

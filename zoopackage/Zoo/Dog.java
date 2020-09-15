@@ -1,8 +1,8 @@
-package zoopackage;
+package zoopackage.Zoo;
 
 //Canine extends animal
 public class Dog extends Canine{
-    public Dog(String[] name)
+    public Dog(String name)
     {
         super(name);
     }

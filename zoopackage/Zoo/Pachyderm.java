@@ -1,4 +1,4 @@
-package zoopackage;
+package zoopackage.Zoo;
 
 public class Pachyderm extends Animal{
     public Pachyderm(String name)
