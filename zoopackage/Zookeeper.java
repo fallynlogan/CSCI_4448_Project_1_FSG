@@ -22,12 +22,20 @@ public class Zookeeper extends Zooemployee {
         for(int i=0; i<zoo.length ; i++){
             if(zoo[i].getClass().getSimpleName() == "Dog") {
                 //there is a 25% chance the dog will dig instead of roaming. 
-                if(0 < rand && rand < 25){
+                if(0 < rand && rand < 25) {
                     zoo[i].dig();
                 } else {
                     zoo[i].roam();
                 }
             } 
+            else if (zoo[i].getClass().getSimpleName() == "Pachyderm") {
+                //there is a 25% chance the Pachyderm will charge instead of roaming. 
+                if(0 < rand && rand < 25) {
+                    zoo[i].charge();
+                } else {
+                    zoo[i].roam();
+                }
+            }
             else {
             zoo[i].roam();
             }
