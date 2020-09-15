@@ -57,4 +57,8 @@ public class Animal{
         }
         
     }
+
+    public void dig(){
+        System.out.println(this.name + " the " + this.getClass().getSimpleName() + "is digging");
+    }
 }
