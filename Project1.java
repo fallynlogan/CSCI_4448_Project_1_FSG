@@ -3,7 +3,7 @@
 //Fallyn Logan
 //Serena Evans-Lutterodt
 
-class HelloWorld {
+/* class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!"); 
     }
@@ -122,13 +122,13 @@ class Zoo {
 
 class ZooEmployee{
     class ZooKeeper {
-        public void wakeAnimalUp(Zoo.Animal[] zoo) {
+        public void wakeAnimalUp(Animal[] zoo) {
             System.out.println("Zookeeper begins to wake the animals up from their slumber.");
             for(int i=0; i<zoo.length ; i++){
                 zoo[i].wakeup();
             }
         }
-        public void rollCall(Zoo.Animal[] zoo) {
+        public void rollCall(Animal[] zoo) {
             System.out.println("Zookeeper begins to roll call the animals.");
             for(int i=0; i<zoo.length ; i++){
                 zoo[i].makeNoise();
@@ -154,7 +154,7 @@ class ZooEmployee{
         }
     }
 }
-
+ */
 
 
 

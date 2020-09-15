@@ -1,25 +1,35 @@
 package zoopackage;
 
 public class Zoo{
-    Animal zoopop = new Animal[16];
-    zoopop[0] = new Alligator("Allison");
-    zoo[1] = new Alligator("Abraham");
-    zoo[2] = new Dog("Dale");
-    zoo[3] = new Dog("Daisy");
-    zoo[4] = new Elephant("Edward");
-    zoo[5] = new Elephant("Ellie");
-    zoo[6] = new Hippo("Harriet");
-    zoo[7] = new Hippo("Harrison");
-    zoo[8] = new Leopard("Lenny");
-    zoo[9] = new Leopard("Lydia");
-    zoo[10] = new Rhino("Rebecca");
-    zoo[11] = new Rhino("Ron");
-    zoo[12] = new Snake("Sally");
-    zoo[13] = new Snake("Sergio");
-    zoo[14] = new Tiger("Tony");
-    zoo[15] = new Tiger("Tarryn");
-    zoo[16] = new Wolf("Willie");
-    zoo[17] = new Wolf("Wendy");
-    zoo[18] = new Cat("Cathy");
-    zoo[19] = new Cat("Clayton");
+    //All of our animal objects for our zoo
+
+    Alligator allison = new Alligator("Allison");
+    Alligator abraham = new Alligator("Abraham");
+    Dog dale = new Dog("Dale");
+    Dog daisy = new Dog("Daisy");
+    Elephant edward = new Elephant("Edward");
+    Elephant ellie = new Elephant("Ellie");
+    Hippo harriet = new Hippo("Harriet");
+    Hippo harrison = new Hippo("Harrison");
+    Leopard lenny = new Leopard("Lenny");
+    Leopard lydia = new Leopard("Lydia");
+    Rhino rebecca = new Rhino("Rebecca");
+    Rhino ron = new Rhino("Ron");
+    Snake sally = new Snake("Sally");
+    Snake sergio = new Snake("Sergio");
+    Tiger tony = new Tiger("Tony");
+    Tiger taryn = new Tiger("Taryn");
+    Wolf willie = new Wolf("Willie");
+    Wolf wendy = new Wolf("Wendy");
+    Cat cathy = new Cat("Cathy");
+    Cat clayton = new Cat("Clayton");
+
+    Animal[] all_animals = {allison,abraham,dale,daisy,edward,ellie,harriet,harrison,lenny,lydia,rebecca,ron,sally,sergio,tony,taryn,willie,wendy,cathy,clayton};
+
+    //System.out.println(all_animals.animals.get(0);
+    //System.out.println(zoo.animals.get(0).getname());
+
+    //System.out.println(wendy.roam());
+    //System.out.println(yo[0].name);
+
 }

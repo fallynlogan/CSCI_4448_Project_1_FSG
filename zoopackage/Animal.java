@@ -20,7 +20,7 @@ public class Animal{
         this.name = name;
     }
     
-    public void wakeUp(){
+    public void wakeup(){
         if(this.isAsleep){
             this.isAsleep = false;
             System.out.println(this.name + " the " +this.getClass().getSimpleName() + " woke up.");
