@@ -1,11 +1,7 @@
 package zoopackage;
 
-<<<<<<< HEAD
 //This is an example of an Abstract class 
 //This is abstract because you cannot create an instance of it. It can only be used to create subclasses (such as zookeeper)
-=======
-//Example of Abstract class in line 4, "public abstract class Zooemployee"
->>>>>>> 63aa7b529da028c82d927bd8a7d4b6a80c5f897a
 public abstract class Zooemployee {
     //Encapsulation regarding line 5, "private String name;" 
     //This is Encapsulation because we are hiding the variable so that other classes cannot access its value directly, there must be getters and setters.
