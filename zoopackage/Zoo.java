@@ -50,7 +50,13 @@ public class Zoo{
         all_animals[19] = wendy;
 
         for(int i=1; i<=numDays ; i++){
-
+            System.out.println("This is day: "+ i);
+            keeper.wakeAnimalUp(all_animals);
+            keeper.rollCall(all_animals);
+            keeper.feedAnimal(all_animals);
+            keeper.exerciseAnimal(all_animals);
+            keeper.feedAnimal(all_animals);
+            keeper.makeAnimalSleep(all_animals);
         }
 
     }

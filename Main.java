@@ -13,7 +13,6 @@ public class Main {
         numDays = sc.nextInt();
         sc.close();
 
-        Zoo ourZoo = new Zoo(numDays);
         PrintStream fileName;
         try {
             fileName = new PrintStream("our_zoo.txt");
@@ -21,10 +20,6 @@ public class Main {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-
-        // for(int i = 0; i < ourZoo.all_animals.length; i++) {
-        //     System.out.println(ourZoo.all_animals[i].getName());
-        //     System.out.println(i);
-        // }
+        Zoo ourZoo = new Zoo(numDays);
     }
 }
