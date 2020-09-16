@@ -1,7 +1,10 @@
 package zoopackage;
 
+//This is an example of an Abstract class 
+//This is abstract because you cannot create an instance of it. It can only be used to create subclasses (such as zookeeper)
 public abstract class Zooemployee {
-    //Encapsulation regarding line 5, "private String name;"
+    //Encapsulation regarding line 5, "private String name;" 
+    //This is Encapsulation because we are hiding the variable so that other classes cannot access its value directly, there must be getters and setters.
     private String name;
     public Zooemployee(String name){
         this.name = name;
@@ -18,14 +21,12 @@ public abstract class Zooemployee {
         String str = this.name + " the " + this.getClass().getSimpleName() + " begins to wake the animals up from their slumber.";
         System.out.println(str);
         for(int i=0; i<zoo.length ; i++){
-            //Polymorphism example #1
             zoo[i].wakeup();
         }
     }
     public void makeAnimalSleep(Animal[] zoo) {
         System.out.println(this.name + " the " + this.getClass().getSimpleName() + " begins to tuck the animals in for the night.");
         for(int i=0; i<zoo.length ; i++){
-            //Polymorphism example #2
             zoo[i].sleep();
         }
         System.out.println(this.name + " the " + this.getClass().getSimpleName() + " locks up and closes the zoo for the night.");
@@ -36,6 +37,8 @@ public abstract class Zooemployee {
             zoo[i].makeNoise();
         }
     }
+    //Abstraction example: These are not defined within zoo employee because they are actions specific to zookeeper. So they are defined here because zookeeper in a subclass of zooemployee so it must have these abstract methods
+    //This is an example of Abstraction because "shows" only necessary info and "hides" unnecessary info
     public abstract void exerciseAnimal(Animal[] zoo);
     public abstract void feedAnimal(Animal[] zoo);
 }

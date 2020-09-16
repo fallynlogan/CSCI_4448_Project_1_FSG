@@ -2,7 +2,6 @@ package zoopackage;
 
 
 public class Zookeeper extends Zooemployee {
-    //public String[] exerciseScripts;//maybe change to prive??
     public Zookeeper(String name) {
         super(name);
     }

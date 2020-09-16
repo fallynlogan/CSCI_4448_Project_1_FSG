@@ -40,6 +40,8 @@ public class Animal{
         isAsleep = false;
     }
     
+    //Example of polymorphim: all animals should overwrite this function and call their own specific makeNoise()
+    //This is an example of polymorphism because polymorphism is the ability of an object to take many forms
     public void makeNoise() {
         System.out.println(this.name + " the " +this.getClass().getSimpleName() + " is making a noise.");
     
