@@ -27,11 +27,21 @@ Cathy the Cat is making a noise.
 Clayton the Cat is making a noise.
 Dale the Dog is making a noise.
 Daisy the Dog is making a noise.
-EdwardOOOOOOOOONJBmkndjsnfjsOJDSEllieOOOOOOOOONJBmkndjsnfjsOJDSHarriet*Splashes Around*Harrison*Splashes Around*LennyGROWLLydiaGROWLRebecca screeches!
+EdwardOOOOOOOOONJBmkndjsnfjsOJDS
+EllieOOOOOOOOONJBmkndjsnfjsOJDS
+Harriet*Splashes Around
+Harrison*Splashes Around
+LennyGROWL
+LydiaGROWL
+Rebecca screeches!
 Ron screeches!
 Sally HISSSSSSSES
 Sergio HISSSSSSSES
-Tony roarTaryn roarWillie BARKS!Wendy BARKS!Zachthe Zookeeper begins to feed the animals.
+Tony roar
+Taryn roar
+Willie BARKS!
+Wendy BARKS!
+Zachthe Zookeeper begins to feed the animals.
 Allison the Alligator is eating.
 Abraham the Alligator is eating.
 Cathy the Cat is eating.
@@ -53,13 +63,26 @@ Taryn the Tiger is eating.
 Willie the Wolf is eating.
 Wendy the Wolf is eating.
 Zach the Zookeeper begins to exercise the animals.
-Abraham slithers around.Cathy meows Clayton meows Dale is diggingDaisy is wagging their tail & running Edward is *STOMPING*
+Abraham slithers around.
+Cathy meows
+Clayton meows
+Dale is wagging their tail & running
+Daisy is wagging their tail & running
+Edward is *STOMPING*
 Ellie is *STOMPING*
-Harriet is *CHARGING*
+Harriet is *STOMPING*
 Harrison is *STOMPING*
-Lenny is *RUNNING*Lydia is *RUNNING*Rebecca is *STOMPING*
+Lenny is *RUNNING*
+Lydia is *RUNNING*
+Rebecca is *CHARGING*
 Ron is *STOMPING*
-Sally slithers around.Sergio slithers around.Tony is *RUNNING*Taryn is *RUNNING*Willie is *WALKING*Wendy is *WALKING*Zachthe Zookeeper begins to feed the animals.
+Sally slithers around.
+Sergio slithers around.
+Tony is *RUNNING*
+Taryn is *RUNNING*
+Willie is *WALKING*
+Wendy is *WALKING*
+Zachthe Zookeeper begins to feed the animals.
 Allison the Alligator is eating.
 Abraham the Alligator is eating.
 Cathy the Cat is eating.
@@ -91,9 +114,13 @@ Edward the Elephant has gone to sleep.
 Ellie the Elephant has gone to sleep.
 Harriet the Hippo has gone to sleep.
 Harrison the Hippo has gone to sleep.
-LennyGROWLLydia is *RUNNING*Rebecca the Rhino has gone to sleep.
+Lenny is *RUNNING*
+Lydia is *RUNNING*
+Rebecca the Rhino has gone to sleep.
 Ron the Rhino has gone to sleep.
 Sally the Snake has gone to sleep.
 Sergio the Snake has gone to sleep.
-Tony is *RUNNING*Taryn roarWillie the Wolf has gone to sleep.
+Tony is sleeping
+Taryn is sleeping
+Willie the Wolf has gone to sleep.
 Wendy the Wolf has gone to sleep.

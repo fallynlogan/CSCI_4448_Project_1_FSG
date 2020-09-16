@@ -15,7 +15,7 @@ public class Zookeeper extends Zooemployee {
     }
 
     public void feedAnimal(Animal[] zoo) {
-        System.out.println(this.getName() + "the Zookeeper begins to feed the animals.");
+        System.out.println(this.getName() + " the Zookeeper begins to feed the animals.");
         for(int i=0; i<zoo.length ; i++){
             zoo[i].eat();
         }
