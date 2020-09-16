@@ -1,5 +1,6 @@
 package zoopackage;
 
+//Example of Abstract class in line 4, "public abstract class Zooemployee"
 public abstract class Zooemployee {
     //Encapsulation regarding line 5, "private String name;"
     private String name;
