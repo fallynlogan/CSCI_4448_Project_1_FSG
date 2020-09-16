@@ -21,6 +21,7 @@ public class Animal{
         this.name = name;
     }
 
+    //resource used: https://study.com/academy/lesson/java-generate-random-number-between-1-100.html
     public int randomInt(){
         int max = 100;
         int min = 1;

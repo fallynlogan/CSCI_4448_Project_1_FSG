@@ -19,4 +19,8 @@ public class Dog extends Canine{
     public void dig() {
         System.out.println(this.getName() + " is digging");
     }
+
+    public void makeNoise() {
+        System.out.println(this.getName() + " is barking");
+    }
 }

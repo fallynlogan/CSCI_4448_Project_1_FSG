@@ -6,7 +6,7 @@ public class Cat extends Feline{
     {
         super(name);
     }
-    public void roam() {
+    public void makeNoise() {
         System.out.println(this.getName() + " meows");
     }
 }
