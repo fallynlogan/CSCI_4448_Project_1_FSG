@@ -6,6 +6,7 @@ public class Pachyderm extends Animal{
         super(name);
     }
     public void roam() {
+        int rand = randomInt();
         //When a Pachyderm is given an exercise command, there is a 25% chance it will charge instead of roam
         if (0 < rand && rand< 25) {
             charge(); 

@@ -7,6 +7,7 @@ public class Dog extends Canine{
         super(name);
     }
     public void roam() {
+        int rand = randomInt();
         //When a Dog is given the exercise command by the Zookeeper,there is a 25% chance the dog will dig instead of roaming.
         if (0 < rand && rand< 25) {
             dig(); 

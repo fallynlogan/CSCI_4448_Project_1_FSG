@@ -10,12 +10,13 @@ public class Feline extends Animal{
     }
 
     public void sleep() {
+        int rand = randomInt();
         if (0 < rand && rand < 30) {
             roam();
         } else if (30 < rand && rand < 60) {
             makeNoise();
         } else {
-            sleep();
+            System.out.print(this.getName() + " is sleeping");
         }
     }
 }
