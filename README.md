@@ -1,7 +1,15 @@
-# CSCI_4448_Project_1_FSG
+# Day at the Zoo
+### Group Members: Fallyn Logan, Serena Evans Lutterodt, Garrett Hempy
 ### OOAD Homework/Project 1 
-#### Fall 2020: 9/16/2020
+### Fall 2020: 9/16/2020
 
+
+### How to Run
+
+
+
+
+### Project Instructions
 
 Write an object-oriented program in Java 8 or later that implements a Zoo full of Animals.  Animals that must appear in your Zoo are represented on slide 16 of Lecture 5. 
 
