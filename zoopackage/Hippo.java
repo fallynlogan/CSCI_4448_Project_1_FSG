@@ -7,6 +7,6 @@ public class Hippo extends Pachyderm{
         super(name);
     }
     public void makeNoise() {
-        System.out.print(this.getName() + "*Splashes Around*");
+        System.out.println(this.getName() + "*Splashes Around");
     }
 }

@@ -6,7 +6,7 @@ public class Feline extends Animal{
         super(name);
     }
     public void roam() {
-        System.out.print(this.getName() + " is *RUNNING*");
+        System.out.println(this.getName() + " is *RUNNING*");
     }
 
     public void sleep() {
@@ -16,7 +16,7 @@ public class Feline extends Animal{
         } else if (30 < rand && rand < 60) {
             makeNoise();
         } else {
-            System.out.print(this.getName() + " is sleeping");
+            System.out.println(this.getName() + " is sleeping");
         }
     }
 }

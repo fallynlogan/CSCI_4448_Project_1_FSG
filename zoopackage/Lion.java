@@ -6,6 +6,6 @@ public class Lion extends Feline{
         super(name);
     }
     public void makeNoise() {
-        System.out.print(this.getName() + " ROAR");
+        System.out.println(this.getName() + " ROAR");
     }
 }

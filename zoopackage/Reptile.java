@@ -6,6 +6,6 @@ public class Reptile extends Animal{
         super(name);
     }
     public void roam() {
-        System.out.print(this.getName() + " slithers around.");
+        System.out.println(this.getName() + " slithers around.");
     }
 }

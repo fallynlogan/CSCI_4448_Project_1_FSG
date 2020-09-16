@@ -6,6 +6,6 @@ public class Canine extends Animal{
         super(name);
     }
     public void roam() {
-        System.out.print(this.getName() + " is *WALKING*");
+        System.out.println(this.getName() + " is *WALKING*");
     }
 }

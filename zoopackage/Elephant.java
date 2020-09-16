@@ -7,6 +7,6 @@ public class Elephant extends Pachyderm{
         super(name);
     }
     public void makeNoise() {
-        System.out.print(this.getName() + "OOOOOOOOONJBmkndjsnfjsOJDS");
+        System.out.println(this.getName() + "OOOOOOOOONJBmkndjsnfjsOJDS");
     }
 }

@@ -6,6 +6,6 @@ public class Tiger  extends Feline{
         super(name);
     }
     public void makeNoise() {
-        System.out.print(this.getName() + " roar");
+        System.out.println(this.getName() + " roar");
     }
 }

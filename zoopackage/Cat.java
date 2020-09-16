@@ -7,6 +7,6 @@ public class Cat extends Feline{
         super(name);
     }
     public void roam() {
-        System.out.print(this.getName() + " meows ");
+        System.out.println(this.getName() + " meows");
     }
 }

@@ -13,10 +13,10 @@ public class Dog extends Canine{
             dig(); 
         }
         else {
-            System.out.print(this.getName() + " is wagging their tail & running ");
+            System.out.println(this.getName() + " is wagging their tail & running");
         }
     }
     public void dig() {
-        System.out.print(this.getName() + " is digging");
+        System.out.println(this.getName() + " is digging");
     }
 }

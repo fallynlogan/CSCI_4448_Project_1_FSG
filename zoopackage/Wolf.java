@@ -9,6 +9,6 @@ public class Wolf extends Canine{
         super(name);
     }
     public void makeNoise() {
-        System.out.print(this.getName() + " BARKS!");
+        System.out.println(this.getName() + " BARKS!");
     }
 }

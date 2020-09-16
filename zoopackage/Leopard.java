@@ -7,6 +7,6 @@ public class Leopard extends Feline{
         super(name);
     }
     public void makeNoise() {
-        System.out.print(this.getName() + "GROWL");
+        System.out.println(this.getName() + "GROWL");
     }
 }
