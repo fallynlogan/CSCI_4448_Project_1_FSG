@@ -29,6 +29,7 @@ public abstract class Zooemployee {
             }
             zoo[i].sleep();
         }
+        System.out.println(this.name + " the " + this.getClass().getSimpleName() + " locks up and closes the zoo for the night.");
     }
     public void rollCall(Animal[] zoo) {
         System.out.println(this.name + " the " + this.getClass().getSimpleName() + " begins to roll call the animals.");

@@ -15,7 +15,7 @@ public class Main {
 
         PrintStream fileName;
         try {
-            fileName = new PrintStream("our_zoo.txt");
+            fileName = new PrintStream("dayatthezoo.out");
             System.setOut(fileName);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
