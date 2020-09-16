@@ -52,35 +52,13 @@ public class Animal{
     }
     
     public void roam() {
-        //When a Dog is given the exercise command by the Zookeeper,there is a 25% chance the dog will dig instead of roaming.
-        if (this.getClass().getSimpleName() == "Dog") {
-            if (0 < rand && rand< 25) {
-                dig(); 
-            }
-        } //When a Pachyderm is given an exercise command, there is a 25% chance it will charge instead of roam.
-        else if (this.getClass().getSimpleName() == "Pachyderm")  {//test this 
-            if (0 < rand && rand< 25) {
-                charge(); 
-            }
-        } else {
-            System.out.println(this.name + " the " +this.getClass().getSimpleName() + " is roaming around.");
-        }
+        System.out.println(this.name + " the " +this.getClass().getSimpleName() + " is roaming around.");
     }
     
     public void sleep() {
         if(!this.isAsleep){
-            if(this.getClass().getSimpleName() == "Cat" || this.getClass().getSimpleName() == "Lion" || this.getClass().getSimpleName() == "Leopard") { //test this
-                System.out.println("This is a feline");
-                //When a Feline is given a sleep command, there is a 30% chance it will roam instead, a 30% chance it will make noise, and a 40% chance it will sleep. 
-                if (0 < rand && rand < 30) {
-                    roam();
-                } else if (30 < rand && rand < 60) {
-                    makeNoise();
-                }
-            } else {
-                isAsleep = true;
-                System.out.println(this.name + " the " +this.getClass().getSimpleName() + " has gone to sleep.");
-            }
+            isAsleep = true;
+            System.out.println(this.name + " the " +this.getClass().getSimpleName() + " has gone to sleep.");
         }
         else{
             System.out.println(this.name + " the " +this.getClass().getSimpleName() + " is already asleep.");
