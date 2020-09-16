@@ -19,7 +19,7 @@ public class Dog extends Canine{
     public void dig() {
         System.out.println(this.getName() + " is digging");
     }
-
+    //Polymorphism example
     public void makeNoise() {
         System.out.println(this.getName() + " is barking");
     }

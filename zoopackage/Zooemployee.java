@@ -19,14 +19,12 @@ public abstract class Zooemployee {
         String str = this.name + " the " + this.getClass().getSimpleName() + " begins to wake the animals up from their slumber.";
         System.out.println(str);
         for(int i=0; i<zoo.length ; i++){
-            //Polymorphism example #1
             zoo[i].wakeup();
         }
     }
     public void makeAnimalSleep(Animal[] zoo) {
         System.out.println(this.name + " the " + this.getClass().getSimpleName() + " begins to tuck the animals in for the night.");
         for(int i=0; i<zoo.length ; i++){
-            //Polymorphism example #2
             zoo[i].sleep();
         }
         System.out.println(this.name + " the " + this.getClass().getSimpleName() + " locks up and closes the zoo for the night.");
