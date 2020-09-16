@@ -5,6 +5,7 @@ public class Zoo{
     public Animal[] all_animals;
 
     public Zoo(int numDays){
+        //Abstraction example regarding lines 9-30 where we are creating new animals w/ names
         keeper = new Zookeeper("Zach");
         all_animals = new Animal[20];
         Alligator allison = new Alligator("Allison");
