@@ -26,7 +26,7 @@ public abstract class Zooemployee {
         String str = this.name + "the" + this.getClass().getSimpleName() + "begins to tuck the animals in for the night.";
         System.out.println(str);
         for(int i=0; i<zoo.length ; i++){
-            if(zoo[i].getClass() == "Feline") {
+            if(zoo[i].getClass().getSimpleName() == "Feline") {
                 //There is a 30% chance the Feline will roam instead of sleeping
 
             }
@@ -42,6 +42,6 @@ public abstract class Zooemployee {
         }
         return str;
     }
-    public abstract String exerciseAnimal(Animal[] zoo);
-    public abstract String feedAnimal(Animal[] zoo);
+    public abstract void exerciseAnimal(Animal[] zoo);
+    public abstract void feedAnimal(Animal[] zoo);
 }
