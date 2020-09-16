@@ -4,7 +4,6 @@ import java.util.Random;
 public class Animal{
     private String name;
     private boolean isAsleep;
-   //Original fucn: private boolean isAsleep = false;
 
    //constructor
    public Animal(String name){
